@@ -1,3 +1,4 @@
+// Tarjetas
 const contenedor = document.querySelector("#contenedor");
 const filas = document.createElement("div")
 
