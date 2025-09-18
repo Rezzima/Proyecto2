@@ -17,7 +17,7 @@ const divContenedor = document.createElement("div")
 //Imagen1.src = "https://i.pinimg.com/originals/24/c7/ac/24c7accae9bf5310c6c2393383718729.jpg"
 //Imagen1.alt = "CoquiArgento"
 //contenedorImg.appendChild(Imagen1)
-divContenedor.appendChild(contenedorImg)
+//divContenedor.appendChild(contenedorImg)
 
 //codigo imagen 2
 const contenedorImg2 = document.createElement("div")
