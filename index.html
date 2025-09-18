@@ -23,26 +23,33 @@
 
     <main>
         <!--Carrusel-->
-        <div id="container" data-bs-ride="carousel">
-            <div class="carousel-inner">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner translateX(-50%)" id="carrusel-inner" style="display: flex;">
                 <div class="carousel-item active">
-                    <img src="https://i.pinimg.com/originals/24/c7/ac/24c7accae9bf5310c6c2393383718729.jpg" class="d-block w-100" alt="CoquiArgento">
+                    <img src="./imagenes/bocanada.png"
+                        class="d-block w-50" alt="CoquiArgento">
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+
+                <!--  -->
+
             </div>
 
 
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
-            <!--Tarjetas-->
+
+
+        <!--Tarjetas-->
 
 
 
@@ -55,9 +62,9 @@
 
 
     </footer>
-    <script src="main.js"></script>
-    <script src="bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
 
+    <script src="bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
