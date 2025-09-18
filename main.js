@@ -5,19 +5,19 @@ container.classList.add("carousel")
 container.classList.add("slide")
 //div contenedor del contenedor del contenedor de imagenes
 const divContenedor = document.createElement("div")
-//divContenedor.classList.add("carousel-inner")
+divContenedor.classList.add("carousel-inner")
 //contenedor imagen
-//const contenedorImg = document.createElement("div")
-//contenedorImg.classList.add("carousel-item")
-//contenedorImg.classList.add("active")
+const contenedorImg = document.createElement("div")
+contenedorImg.classList.add("carousel-item")
+contenedorImg.classList.add("active")
 //Imagen
-//const Imagen1 = document.createElement("img")
-//Imagen1.classList.add("d-block")
-//Imagen1.classList.add("w-100")
-//Imagen1.src = "https://i.pinimg.com/originals/24/c7/ac/24c7accae9bf5310c6c2393383718729.jpg"
-//Imagen1.alt = "CoquiArgento"
-//contenedorImg.appendChild(Imagen1)
-//divContenedor.appendChild(contenedorImg)
+const Imagen1 = document.createElement("img")
+Imagen1.classList.add("d-block")
+Imagen1.classList.add("w-100")
+Imagen1.src = "https://i.pinimg.com/originals/24/c7/ac/24c7accae9bf5310c6c2393383718729.jpg"
+Imagen1.alt = "CoquiArgento"
+contenedorImg.appendChild(Imagen1)
+divContenedor.appendChild(contenedorImg)
 
 //codigo imagen 2
 const contenedorImg2 = document.createElement("div")
